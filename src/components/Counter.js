@@ -17,9 +17,9 @@ const Counter = () => {
     <animated.div style={{ ...levelColor, height: '100vh' }}>
       <Box textAlign="center" p={4}>
         <h1>Counter: {count}</h1>
-        <Button onClick={increment} variant="contained" color="primary">Increment</Button>
-        <Button onClick={reset} variant="contained">Reset</Button>
-        <Button onClick={decrement} variant="contained" color="secondary">Decrement</Button>
+        <Button onClick={increment} variant="contained" color="primary">+</Button>
+        <Button onClick={reset} variant="contained"  color="secondary">Reset</Button>
+        <Button onClick={decrement} variant="contained" color="primary">-</Button>
         
       </Box>
     </animated.div>
