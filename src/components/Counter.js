@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 const Counter = () => {
   const [count, setCount] = useState(0);
   const levelColor = useSpring({
-    backgroundColor: `rgba(650, 348, 10, ${count / 10})`,
+    backgroundColor: `rgba(650, 568, 0, ${count / 100})`,
   });
 
   const increment = () => setCount(count + 1);
