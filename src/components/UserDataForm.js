@@ -34,7 +34,7 @@ const UserDataForm = () => {
     const id = Date.now().toString();
     localStorage.setItem('userData', JSON.stringify({ ...userData, id }));
     setIsFormDirty(false);
-    navigate('/dashboard');
+  
   };
 
   return (
